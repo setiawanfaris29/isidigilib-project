@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* FONT */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap'); */
+
+@font-face {
+    font-family: Montserrat-bold;
+    src: url(../asset/font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: DM-sans-regular;
+    src: url(../asset/font/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: DM-sans-bold;
+    src: url(../asset/font/Montserrat-Bold.ttf);
+}
+
+.header-title {
+    font-family: Montserrat-bold;
+}
+
+
+.p1 {
+    font-family: DM-sans-regular;
+    margin: 0;
+    padding: 0;
+}
+
+.p2 {
+    font-family: DM-sans-bold;
+    margin: 0;
+    padding: 0;
+}
+
+/* COMPONENT */
+.hero {
+    width: 100%;
+    height: 890px;
+    z-index: 1;
+}
+
+.btn-cta {
+    width: 140px;
+    height: 56px;
+    padding: 6px 17px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-cta-outline {
+    width: 140px;
+    height: 56px;
+    padding: 6px 17px;
+    border-radius: 8px;
+    background-color: #7367F0;
+    color: white;
+    border: 1.5px solid black;
+}
+
+.more {
+    border-color: #ffff;
+    color: white;
+}
+
+.more:hover {
+    background-color: #fff;
+    color: #28C76F;
+}
+
+.btn-label {
+    position: relative;
+    left: -12px;
+    display: inline-block;
+    padding: 2px 12px;
+}
+
+.btn-cta2 {
+    width: 100px;
+    height: 48px;
+    padding: 6px 17px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-cta3 {
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-cta4 {
+    width: 100%;
+    height: 48px;
+    padding: 6px 17px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.section2 {
+    margin-top: 4rem;
+    z-index: 20;
+    position: absolute;
+    width: 100%;
+}
+
+.section3 {
+    margin-top: 10rem;
+    z-index: 30;
+}
+
+.section4 {
+    margin-top: 7rem;
+    width: auto;
+    height: auto;
+}
+
+.section5 {
+    width: 100%;
+    height: auto;
+}
+
+.section6 {
+    width: 100%;
+    height: auto;
+}
+
+.section7 {
+    width: 100%;
+    height: auto;
+}
+
+.section8 {
+    width: 100%;
+    height: auto;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.list-group li {
+    border: 0 none;
+}
+
+.carousel {
+    margin: 0 auto;
+}
+
+a{
+    color: #000 !important;
+}
+a.contact:link {
+    text-decoration: none;
+  }
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #151515;
+  }
+
+
+
+/* END COMPONENT */
+
+/* NEWS */
+
+.wrapper-news {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 443px;
+}
+
+.content {
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news1 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0), rgba(3, 3, 3, 0.815)),
+        url('../asset/img/galery_preview01.png');
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.news2 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0), rgba(3, 3, 3, 0.815)), url('../asset/img/galery_preview02.png');
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.news3 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0), rgba(3, 3, 3, 0.815)), url('../asset/img/galery_preview03.png');
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.news4 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0), rgba(3, 3, 3, 0.815)), url('../asset/img/galery_preview04.png');
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.news5 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0), rgba(3, 3, 3, 0.815)), url('../asset/img/galery_preview05.png');
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.news1:hover {
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.news2:hover {
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.news3:hover {
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.news4:hover {
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.news5:hover {
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+/* END NEWS */
+
+/* .carousel-inner img {
+    margin: auto;
+  } */
+
+/* .img-us{
+    z-index: 20;
+    margin-top: -116px;
+} */
+
+
+/* COLOR */
+.primary-color {
+    background-color: #7367F0;
+}
+
+.secondary-color {
+    background-color: #82868B;
+}
+
+.transparent-color {
+    background-color: rgba(255, 255, 255, 0.384);
+}
+
+.success-color {
+    background-color: #28C76F;
+}
+
+.danger-color {
+    background-color: #EA5455;
+}
+
+.warning-color {
+    background-color: #FF9F43;
+}
+
+.info-color {
+    background-color: #00CFE8;
+}
+
+.light-color {
+    background-color: #FFFF;
+}
+
+.grey-color {
+    background-color: #F3F2F7;
+}
+
+.gray-text {
+    color: #82868B;
+}
+
+.dark-text {
+    color: #4B4B4B;
+}
+
+.success-text {
+    color: #28C76F;
+}
+
+.warning-text {
+    color: #FF9F43;
+}
